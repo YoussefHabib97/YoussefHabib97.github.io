@@ -980,6 +980,12 @@ button {
   background-color: var(--main-color);
 }
 
+.mt-2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 /* Responsive */
 @media (max-width: 991px) {
   .container {
