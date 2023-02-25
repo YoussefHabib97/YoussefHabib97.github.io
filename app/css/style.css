@@ -116,6 +116,11 @@ section.fade-out {
   opacity: 0;
 }
 
+.location {
+  color: var(--main-color);
+  margin: 1rem;
+}
+
 .container {
   padding: 0 3rem;
   width: 100%;
@@ -207,7 +212,7 @@ button {
   color: var(--white);
 }
 
-/* Animation Keyframes */
+/* frames */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -567,6 +572,14 @@ button {
 
 .home-text .btn {
   margin: 0 1rem;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .home-img .img-box {
