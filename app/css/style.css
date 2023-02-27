@@ -1001,7 +1001,8 @@ button {
   }
 
   .home-img .img-box {
-    max-width: 300px;
+    width: 10px;
+    height: 10px;
   }
 
   .home-text,
