@@ -31,11 +31,9 @@
 
 body {
   min-height: 100vh;
-  background-image: linear-gradient(
-    to bottom right,
-    var(--pink-light),
-    var(--cyan-light)
-  );
+  background-image: linear-gradient(to bottom right,
+      var(--pink-light),
+      var(--cyan-light));
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -71,6 +69,7 @@ h1,
 h2 {
   font-weight: 600;
 }
+
 h3,
 h4,
 h5,
@@ -208,6 +207,7 @@ button {
 .btn:hover::before {
   width: 100%;
 }
+
 .btn:hover {
   color: var(--white);
 }
@@ -217,6 +217,7 @@ button {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -226,26 +227,31 @@ button {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
 
 @keyframes zoomInOut {
+
   0%,
   100% {
     transform: scale(0.5);
   }
+
   50% {
     transform: scale(1);
   }
 }
 
 @keyframes bounceTop {
+
   0%,
   100% {
     transform: translateY(-50px);
   }
+
   50% {
     transform: translateY(0px);
   }
@@ -255,6 +261,7 @@ button {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -383,6 +390,7 @@ button {
   height: 32px;
   border-color: var(--orange);
 }
+
 /* Header */
 .header {
   position: absolute;
@@ -521,6 +529,7 @@ button {
   transition: color 0.3s ease;
   position: relative;
 }
+
 .header .nav-inner ul li a::before {
   content: '';
   position: absolute;
@@ -559,10 +568,12 @@ button {
 .home-text p {
   font-size: 1rem;
 }
+
 .home-text h1 {
   font-size: 3rem;
   text-transform: capitalize;
 }
+
 .home-text h2 {
   font-size: 2rem;
   text-transform: capitalize;
@@ -679,6 +690,7 @@ button {
   width: 100%;
   background-color: var(--main-color);
 }
+
 .about-tabs .tab-item.active {
   color: var(--main-color);
   opacity: 1;
@@ -703,6 +715,7 @@ button {
   padding: 2.5rem 0;
   display: none;
 }
+
 .about-text .tab-content.active {
   display: block;
 }
@@ -734,11 +747,13 @@ button {
   font-weight: 400;
   margin: 0 0 1rem;
 }
+
 .about-text .timeline-item h4 {
   font-size: 1.125rem;
   text-transform: capitalize;
   margin: 0 0 0.5rem;
 }
+
 .about-text .timeline-item h4 span {
   font-weight: 400;
 }
@@ -885,11 +900,12 @@ button {
 .btn:hover::before {
   width: 100%;
 }
+
 .btn:hover {
   color: var(--white);
 }
-*/
 
+*/
 /* Contact Section */
 
 .contact-form {
@@ -897,6 +913,7 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 .contact-form,
 .contact-info {
   padding: 0 1rem;
@@ -975,6 +992,7 @@ button {
   border-radius: 50%;
   transition: all 0.3s ease;
 }
+
 .contact-info-item .social-links a:hover {
   color: var(--white);
   background-color: var(--main-color);
@@ -1020,6 +1038,7 @@ button {
 }
 
 @media (max-width: 767px) {
+
   .contact-form,
   .contact-info,
   .about-img,
@@ -1051,10 +1070,12 @@ button {
 }
 
 @media (max-width: 575px) {
+
   .section-title h2,
   .header .nav-inner ul li a {
     font-size: 32px;
   }
+
   .home-text h1 {
     font-size: 32px;
   }
